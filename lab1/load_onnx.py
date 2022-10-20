@@ -1,7 +1,6 @@
 import onnx
 import onnxruntime as ort
 import numpy
-import torch
 
 onnx_model = onnx.load("wine_model.onnx")
 onnx.checker.check_model(onnx_model)
