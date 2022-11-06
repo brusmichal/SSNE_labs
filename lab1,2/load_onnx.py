@@ -8,6 +8,7 @@ onnx.checker.check_model(onnx_model)
 
 
 df = pd.read_csv("valid.csv")
+df.head()
 x_val = df.values[:, :-1]
 y_val = df.values[:, -1]
 
